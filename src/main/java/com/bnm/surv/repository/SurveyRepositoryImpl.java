@@ -1,11 +1,18 @@
 package com.bnm.surv.repository;
 
-public class SurveyRepositoryImpl implements SurveyRepository{
+import org.springframework.stereotype.Repository;
 
-	@Override
+
+public class SurveyRepositoryImpl {
+
+	
 	public String getSurvey(String str) {
-		// TODO Auto-generated method stub
+		
 		return str;
 	}
 
 }
+
+
+
+
